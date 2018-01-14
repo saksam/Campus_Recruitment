@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wix.traitsoft.tpo_mnnit.Fragment_Project"
+    android:id="@+id/content_project">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="52dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+         >
+
+    <TableLayout
+        android:id="@+id/projecttable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </TableLayout>
+    </ScrollView>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="UPDATE"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/projectbuttom"
+        />
+</FrameLayout>
